@@ -7,26 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A12266132740485F00019133 /* ForecastFlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266122740485F00019133 /* ForecastFlightsTests.swift */; };
 		A1C4DB0E27403DC3006FD5AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB0D27403DC3006FD5AB /* AppDelegate.swift */; };
 		A1C4DB1027403DC3006FD5AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB0F27403DC3006FD5AB /* SceneDelegate.swift */; };
 		A1C4DB1227403DC3006FD5AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB1127403DC3006FD5AB /* ViewController.swift */; };
 		A1C4DB1527403DC3006FD5AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C4DB1327403DC3006FD5AB /* Main.storyboard */; };
 		A1C4DB1727403DC5006FD5AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C4DB1627403DC5006FD5AB /* Assets.xcassets */; };
 		A1C4DB1A27403DC5006FD5AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C4DB1827403DC5006FD5AB /* LaunchScreen.storyboard */; };
-		A1C4DB2527403DC5006FD5AB /* ForecastFlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB2427403DC5006FD5AB /* ForecastFlightsTests.swift */; };
-		A1C4DB2F27403DC5006FD5AB /* ForecastFlightsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB2E27403DC5006FD5AB /* ForecastFlightsUITests.swift */; };
-		A1C4DB3127403DC5006FD5AB /* ForecastFlightsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB3027403DC5006FD5AB /* ForecastFlightsUITestsLaunchTests.swift */; };
+		A1C4DB4627404522006FD5AB /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = A1C4DB4527404522006FD5AB /* Nimble */; };
+		A1C4DB492740456A006FD5AB /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = A1C4DB482740456A006FD5AB /* Quick */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A1C4DB2127403DC5006FD5AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A1C4DB0227403DC3006FD5AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A1C4DB0927403DC3006FD5AB;
-			remoteInfo = ForecastFlights;
-		};
-		A1C4DB2B27403DC5006FD5AB /* PBXContainerItemProxy */ = {
+		A12266142740485F00019133 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A1C4DB0227403DC3006FD5AB /* Project object */;
 			proxyType = 1;
@@ -36,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A12266102740485F00019133 /* ForecastFlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastFlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12266122740485F00019133 /* ForecastFlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastFlightsTests.swift; sourceTree = "<group>"; };
 		A1C4DB0A27403DC3006FD5AB /* ForecastFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C4DB0D27403DC3006FD5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C4DB0F27403DC3006FD5AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,45 +39,50 @@
 		A1C4DB1627403DC5006FD5AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1C4DB1927403DC5006FD5AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1C4DB1B27403DC5006FD5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1C4DB2027403DC5006FD5AB /* ForecastFlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastFlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1C4DB2427403DC5006FD5AB /* ForecastFlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastFlightsTests.swift; sourceTree = "<group>"; };
-		A1C4DB2A27403DC5006FD5AB /* ForecastFlightsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastFlightsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1C4DB2E27403DC5006FD5AB /* ForecastFlightsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastFlightsUITests.swift; sourceTree = "<group>"; };
-		A1C4DB3027403DC5006FD5AB /* ForecastFlightsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastFlightsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A122660D2740485F00019133 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1C4DB0727403DC3006FD5AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1C4DB1D27403DC5006FD5AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1C4DB2727403DC5006FD5AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A1C4DB492740456A006FD5AB /* Quick in Frameworks */,
+				A1C4DB4627404522006FD5AB /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A1226607274047A000019133 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A12266112740485F00019133 /* ForecastFlightsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12266122740485F00019133 /* ForecastFlightsTests.swift */,
+			);
+			path = ForecastFlightsTests;
+			sourceTree = "<group>";
+		};
 		A1C4DB0127403DC3006FD5AB = {
 			isa = PBXGroup;
 			children = (
 				A1C4DB0C27403DC3006FD5AB /* ForecastFlights */,
-				A1C4DB2327403DC5006FD5AB /* ForecastFlightsTests */,
-				A1C4DB2D27403DC5006FD5AB /* ForecastFlightsUITests */,
+				A12266112740485F00019133 /* ForecastFlightsTests */,
 				A1C4DB0B27403DC3006FD5AB /* Products */,
+				A1226607274047A000019133 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				A1C4DB0A27403DC3006FD5AB /* ForecastFlights.app */,
-				A1C4DB2027403DC5006FD5AB /* ForecastFlightsTests.xctest */,
-				A1C4DB2A27403DC5006FD5AB /* ForecastFlightsUITests.xctest */,
+				A12266102740485F00019133 /* ForecastFlightsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -110,23 +109,6 @@
 				A1C4DB1B27403DC5006FD5AB /* Info.plist */,
 			);
 			path = ForecastFlights;
-			sourceTree = "<group>";
-		};
-		A1C4DB2327403DC5006FD5AB /* ForecastFlightsTests */ = {
-			isa = PBXGroup;
-			children = (
-				A1C4DB2427403DC5006FD5AB /* ForecastFlightsTests.swift */,
-			);
-			path = ForecastFlightsTests;
-			sourceTree = "<group>";
-		};
-		A1C4DB2D27403DC5006FD5AB /* ForecastFlightsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A1C4DB2E27403DC5006FD5AB /* ForecastFlightsUITests.swift */,
-				A1C4DB3027403DC5006FD5AB /* ForecastFlightsUITestsLaunchTests.swift */,
-			);
-			path = ForecastFlightsUITests;
 			sourceTree = "<group>";
 		};
 		A1C4DB3D27403E29006FD5AB /* Model */ = {
@@ -162,6 +144,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A122660F2740485F00019133 /* ForecastFlightsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12266162740485F00019133 /* Build configuration list for PBXNativeTarget "ForecastFlightsTests" */;
+			buildPhases = (
+				A122660C2740485F00019133 /* Sources */,
+				A122660D2740485F00019133 /* Frameworks */,
+				A122660E2740485F00019133 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12266152740485F00019133 /* PBXTargetDependency */,
+			);
+			name = ForecastFlightsTests;
+			productName = ForecastFlightsTests;
+			productReference = A12266102740485F00019133 /* ForecastFlightsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A1C4DB0927403DC3006FD5AB /* ForecastFlights */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A1C4DB3427403DC5006FD5AB /* Build configuration list for PBXNativeTarget "ForecastFlights" */;
@@ -176,45 +176,13 @@
 			dependencies = (
 			);
 			name = ForecastFlights;
+			packageProductDependencies = (
+				A1C4DB4527404522006FD5AB /* Nimble */,
+				A1C4DB482740456A006FD5AB /* Quick */,
+			);
 			productName = ForecastFlights;
 			productReference = A1C4DB0A27403DC3006FD5AB /* ForecastFlights.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A1C4DB1F27403DC5006FD5AB /* ForecastFlightsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A1C4DB3727403DC5006FD5AB /* Build configuration list for PBXNativeTarget "ForecastFlightsTests" */;
-			buildPhases = (
-				A1C4DB1C27403DC5006FD5AB /* Sources */,
-				A1C4DB1D27403DC5006FD5AB /* Frameworks */,
-				A1C4DB1E27403DC5006FD5AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1C4DB2227403DC5006FD5AB /* PBXTargetDependency */,
-			);
-			name = ForecastFlightsTests;
-			productName = ForecastFlightsTests;
-			productReference = A1C4DB2027403DC5006FD5AB /* ForecastFlightsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A1C4DB2927403DC5006FD5AB /* ForecastFlightsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A1C4DB3A27403DC5006FD5AB /* Build configuration list for PBXNativeTarget "ForecastFlightsUITests" */;
-			buildPhases = (
-				A1C4DB2627403DC5006FD5AB /* Sources */,
-				A1C4DB2727403DC5006FD5AB /* Frameworks */,
-				A1C4DB2827403DC5006FD5AB /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A1C4DB2C27403DC5006FD5AB /* PBXTargetDependency */,
-			);
-			name = ForecastFlightsUITests;
-			productName = ForecastFlightsUITests;
-			productReference = A1C4DB2A27403DC5006FD5AB /* ForecastFlightsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -226,16 +194,12 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					A122660F2740485F00019133 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = A1C4DB0927403DC3006FD5AB;
+					};
 					A1C4DB0927403DC3006FD5AB = {
 						CreatedOnToolsVersion = 13.1;
-					};
-					A1C4DB1F27403DC5006FD5AB = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = A1C4DB0927403DC3006FD5AB;
-					};
-					A1C4DB2927403DC5006FD5AB = {
-						CreatedOnToolsVersion = 13.1;
-						TestTargetID = A1C4DB0927403DC3006FD5AB;
 					};
 				};
 			};
@@ -248,18 +212,28 @@
 				Base,
 			);
 			mainGroup = A1C4DB0127403DC3006FD5AB;
+			packageReferences = (
+				A1C4DB4427404522006FD5AB /* XCRemoteSwiftPackageReference "Nimble" */,
+				A1C4DB472740456A006FD5AB /* XCRemoteSwiftPackageReference "Quick" */,
+			);
 			productRefGroup = A1C4DB0B27403DC3006FD5AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A1C4DB0927403DC3006FD5AB /* ForecastFlights */,
-				A1C4DB1F27403DC5006FD5AB /* ForecastFlightsTests */,
-				A1C4DB2927403DC5006FD5AB /* ForecastFlightsUITests */,
+				A122660F2740485F00019133 /* ForecastFlightsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A122660E2740485F00019133 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1C4DB0827403DC3006FD5AB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,20 +241,6 @@
 				A1C4DB1A27403DC5006FD5AB /* LaunchScreen.storyboard in Resources */,
 				A1C4DB1727403DC5006FD5AB /* Assets.xcassets in Resources */,
 				A1C4DB1527403DC3006FD5AB /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1C4DB1E27403DC5006FD5AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1C4DB2827403DC5006FD5AB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +267,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A122660C2740485F00019133 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12266132740485F00019133 /* ForecastFlightsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A1C4DB0627403DC3006FD5AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -317,35 +285,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A1C4DB1C27403DC5006FD5AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1C4DB2527403DC5006FD5AB /* ForecastFlightsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1C4DB2627403DC5006FD5AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A1C4DB2F27403DC5006FD5AB /* ForecastFlightsUITests.swift in Sources */,
-				A1C4DB3127403DC5006FD5AB /* ForecastFlightsUITestsLaunchTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A1C4DB2227403DC5006FD5AB /* PBXTargetDependency */ = {
+		A12266152740485F00019133 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A1C4DB0927403DC3006FD5AB /* ForecastFlights */;
-			targetProxy = A1C4DB2127403DC5006FD5AB /* PBXContainerItemProxy */;
-		};
-		A1C4DB2C27403DC5006FD5AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A1C4DB0927403DC3006FD5AB /* ForecastFlights */;
-			targetProxy = A1C4DB2B27403DC5006FD5AB /* PBXContainerItemProxy */;
+			targetProxy = A12266142740485F00019133 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -369,6 +315,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A12266172740485F00019133 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5V5PZUN2HG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.ForecastFlightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForecastFlights.app/ForecastFlights";
+			};
+			name = Debug;
+		};
+		A12266182740485F00019133 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5V5PZUN2HG;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = learning.ForecastFlightsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForecastFlights.app/ForecastFlights";
+			};
+			name = Release;
+		};
 		A1C4DB3227403DC5006FD5AB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -493,6 +485,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V5PZUN2HG;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ForecastFlights/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -522,6 +515,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5V5PZUN2HG;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ForecastFlights/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -543,105 +537,18 @@
 			};
 			name = Release;
 		};
-		A1C4DB3827403DC5006FD5AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5V5PZUN2HG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learning.ForecastFlightsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForecastFlights.app/ForecastFlights";
-			};
-			name = Debug;
-		};
-		A1C4DB3927403DC5006FD5AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5V5PZUN2HG;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learning.ForecastFlightsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ForecastFlights.app/ForecastFlights";
-			};
-			name = Release;
-		};
-		A1C4DB3B27403DC5006FD5AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5V5PZUN2HG;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learning.ForecastFlightsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ForecastFlights;
-			};
-			name = Debug;
-		};
-		A1C4DB3C27403DC5006FD5AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 5V5PZUN2HG;
-				GENERATE_INFOPLIST_FILE = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = learning.ForecastFlightsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ForecastFlights;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A12266162740485F00019133 /* Build configuration list for PBXNativeTarget "ForecastFlightsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12266172740485F00019133 /* Debug */,
+				A12266182740485F00019133 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A1C4DB0527403DC3006FD5AB /* Build configuration list for PBXProject "ForecastFlights" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -660,25 +567,39 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1C4DB3727403DC5006FD5AB /* Build configuration list for PBXNativeTarget "ForecastFlightsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1C4DB3827403DC5006FD5AB /* Debug */,
-				A1C4DB3927403DC5006FD5AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A1C4DB3A27403DC5006FD5AB /* Build configuration list for PBXNativeTarget "ForecastFlightsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A1C4DB3B27403DC5006FD5AB /* Debug */,
-				A1C4DB3C27403DC5006FD5AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A1C4DB4427404522006FD5AB /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+		A1C4DB472740456A006FD5AB /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A1C4DB4527404522006FD5AB /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1C4DB4427404522006FD5AB /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+		A1C4DB482740456A006FD5AB /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A1C4DB472740456A006FD5AB /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A1C4DB0227403DC3006FD5AB /* Project object */;
 }
