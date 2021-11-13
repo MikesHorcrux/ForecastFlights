@@ -8,6 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		A12266132740485F00019133 /* ForecastFlightsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266122740485F00019133 /* ForecastFlightsTests.swift */; };
+		A122661B27404F1300019133 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122661A27404F1300019133 /* APIClient.swift */; };
+		A122661D2740502700019133 /* NetworkDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122661C2740502700019133 /* NetworkDispatcher.swift */; };
+		A122661F2740505200019133 /* NetworkRequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122661E2740505200019133 /* NetworkRequestError.swift */; };
+		A12266212740507700019133 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266202740507700019133 /* Request.swift */; };
+		A1226623274050BD00019133 /* RequestPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226622274050BD00019133 /* RequestPublisher.swift */; };
+		A1226625274050DF00019133 /* NetworkingLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226624274050DF00019133 /* NetworkingLogger.swift */; };
+		A1226628274051E700019133 /* URLRequest+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226627274051E700019133 /* URLRequest+extension.swift */; };
 		A1C4DB0E27403DC3006FD5AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB0D27403DC3006FD5AB /* AppDelegate.swift */; };
 		A1C4DB1027403DC3006FD5AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB0F27403DC3006FD5AB /* SceneDelegate.swift */; };
 		A1C4DB1227403DC3006FD5AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB1127403DC3006FD5AB /* ViewController.swift */; };
@@ -31,6 +38,13 @@
 /* Begin PBXFileReference section */
 		A12266102740485F00019133 /* ForecastFlightsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ForecastFlightsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A12266122740485F00019133 /* ForecastFlightsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastFlightsTests.swift; sourceTree = "<group>"; };
+		A122661A27404F1300019133 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		A122661C2740502700019133 /* NetworkDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDispatcher.swift; sourceTree = "<group>"; };
+		A122661E2740505200019133 /* NetworkRequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestError.swift; sourceTree = "<group>"; };
+		A12266202740507700019133 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A1226622274050BD00019133 /* RequestPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPublisher.swift; sourceTree = "<group>"; };
+		A1226624274050DF00019133 /* NetworkingLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLogger.swift; sourceTree = "<group>"; };
+		A1226627274051E700019133 /* URLRequest+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+extension.swift"; sourceTree = "<group>"; };
 		A1C4DB0A27403DC3006FD5AB /* ForecastFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C4DB0D27403DC3006FD5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C4DB0F27403DC3006FD5AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +90,27 @@
 			path = ForecastFlightsTests;
 			sourceTree = "<group>";
 		};
+		A122661927404E5900019133 /* NetworkController */ = {
+			isa = PBXGroup;
+			children = (
+				A122661A27404F1300019133 /* APIClient.swift */,
+				A122661C2740502700019133 /* NetworkDispatcher.swift */,
+				A122661E2740505200019133 /* NetworkRequestError.swift */,
+				A12266202740507700019133 /* Request.swift */,
+				A1226622274050BD00019133 /* RequestPublisher.swift */,
+				A1226624274050DF00019133 /* NetworkingLogger.swift */,
+			);
+			path = NetworkController;
+			sourceTree = "<group>";
+		};
+		A1226626274051D400019133 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A1226627274051E700019133 /* URLRequest+extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		A1C4DB0127403DC3006FD5AB = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +133,7 @@
 		A1C4DB0C27403DC3006FD5AB /* ForecastFlights */ = {
 			isa = PBXGroup;
 			children = (
+				A1226626274051D400019133 /* Extensions */,
 				A1C4DB4027403E4E006FD5AB /* Views */,
 				A1C4DB3F27403E41006FD5AB /* ViewModels */,
 				A1C4DB3E27403E30006FD5AB /* ViewControllers */,
@@ -114,6 +150,7 @@
 		A1C4DB3D27403E29006FD5AB /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A122661927404E5900019133 /* NetworkController */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -279,9 +316,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1226623274050BD00019133 /* RequestPublisher.swift in Sources */,
 				A1C4DB1227403DC3006FD5AB /* ViewController.swift in Sources */,
+				A1226625274050DF00019133 /* NetworkingLogger.swift in Sources */,
 				A1C4DB0E27403DC3006FD5AB /* AppDelegate.swift in Sources */,
 				A1C4DB1027403DC3006FD5AB /* SceneDelegate.swift in Sources */,
+				A122661D2740502700019133 /* NetworkDispatcher.swift in Sources */,
+				A12266212740507700019133 /* Request.swift in Sources */,
+				A122661B27404F1300019133 /* APIClient.swift in Sources */,
+				A122661F2740505200019133 /* NetworkRequestError.swift in Sources */,
+				A1226628274051E700019133 /* URLRequest+extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
