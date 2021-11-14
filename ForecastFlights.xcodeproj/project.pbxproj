@@ -15,6 +15,23 @@
 		A1226623274050BD00019133 /* RequestPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226622274050BD00019133 /* RequestPublisher.swift */; };
 		A1226625274050DF00019133 /* NetworkingLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226624274050DF00019133 /* NetworkingLogger.swift */; };
 		A1226628274051E700019133 /* URLRequest+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226627274051E700019133 /* URLRequest+extension.swift */; };
+		A122662F27405FF300019133 /* Report.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122662E27405FF300019133 /* Report.swift */; };
+		A12266312740607A00019133 /* ReportConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266302740607A00019133 /* ReportConditions.swift */; };
+		A1226633274060C700019133 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226632274060C700019133 /* Forecast.swift */; };
+		A1226635274060E800019133 /* ReportWindsAloft.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226634274060E800019133 /* ReportWindsAloft.swift */; };
+		A12266372740613000019133 /* MOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266362740613000019133 /* MOS.swift */; };
+		A12266392740658300019133 /* CloudLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266382740658300019133 /* CloudLayers.swift */; };
+		A122663B274066BD00019133 /* ConditionsVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122663A274066BD00019133 /* ConditionsVisibility.swift */; };
+		A122663D2740670100019133 /* Wind.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122663C2740670100019133 /* Wind.swift */; };
+		A122663F274067D100019133 /* Remarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122663E274067D100019133 /* Remarks.swift */; };
+		A1226641274089B000019133 /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1226640274089B000019133 /* JSON.swift */; };
+		A122664327408F5B00019133 /* Period.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122664227408F5B00019133 /* Period.swift */; };
+		A12266452740919D00019133 /* ForecastConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266442740919D00019133 /* ForecastConditions.swift */; };
+		A122664727415F8300019133 /* WindsAloftElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122664627415F8300019133 /* WindsAloftElement.swift */; };
+		A122664927415FAF00019133 /* WindTemp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122664827415FAF00019133 /* WindTemp.swift */; };
+		A122664B274162ED00019133 /* MOSForcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122664A274162ED00019133 /* MOSForcast.swift */; };
+		A122664D2741633600019133 /* MOSConditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A122664C2741633600019133 /* MOSConditions.swift */; };
+		A12266512741646700019133 /* MOSVisibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12266502741646700019133 /* MOSVisibility.swift */; };
 		A1C4DB0E27403DC3006FD5AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB0D27403DC3006FD5AB /* AppDelegate.swift */; };
 		A1C4DB1027403DC3006FD5AB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB0F27403DC3006FD5AB /* SceneDelegate.swift */; };
 		A1C4DB1227403DC3006FD5AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1C4DB1127403DC3006FD5AB /* ViewController.swift */; };
@@ -45,6 +62,23 @@
 		A1226622274050BD00019133 /* RequestPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPublisher.swift; sourceTree = "<group>"; };
 		A1226624274050DF00019133 /* NetworkingLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingLogger.swift; sourceTree = "<group>"; };
 		A1226627274051E700019133 /* URLRequest+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLRequest+extension.swift"; sourceTree = "<group>"; };
+		A122662E27405FF300019133 /* Report.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Report.swift; sourceTree = "<group>"; };
+		A12266302740607A00019133 /* ReportConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportConditions.swift; sourceTree = "<group>"; };
+		A1226632274060C700019133 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
+		A1226634274060E800019133 /* ReportWindsAloft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportWindsAloft.swift; sourceTree = "<group>"; };
+		A12266362740613000019133 /* MOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOS.swift; sourceTree = "<group>"; };
+		A12266382740658300019133 /* CloudLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLayers.swift; sourceTree = "<group>"; };
+		A122663A274066BD00019133 /* ConditionsVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionsVisibility.swift; sourceTree = "<group>"; };
+		A122663C2740670100019133 /* Wind.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wind.swift; sourceTree = "<group>"; };
+		A122663E274067D100019133 /* Remarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remarks.swift; sourceTree = "<group>"; };
+		A1226640274089B000019133 /* JSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
+		A122664227408F5B00019133 /* Period.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Period.swift; sourceTree = "<group>"; };
+		A12266442740919D00019133 /* ForecastConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastConditions.swift; sourceTree = "<group>"; };
+		A122664627415F8300019133 /* WindsAloftElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindsAloftElement.swift; sourceTree = "<group>"; };
+		A122664827415FAF00019133 /* WindTemp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindTemp.swift; sourceTree = "<group>"; };
+		A122664A274162ED00019133 /* MOSForcast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOSForcast.swift; sourceTree = "<group>"; };
+		A122664C2741633600019133 /* MOSConditions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOSConditions.swift; sourceTree = "<group>"; };
+		A12266502741646700019133 /* MOSVisibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MOSVisibility.swift; sourceTree = "<group>"; };
 		A1C4DB0A27403DC3006FD5AB /* ForecastFlights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForecastFlights.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1C4DB0D27403DC3006FD5AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1C4DB0F27403DC3006FD5AB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -99,6 +133,7 @@
 				A12266202740507700019133 /* Request.swift */,
 				A1226622274050BD00019133 /* RequestPublisher.swift */,
 				A1226624274050DF00019133 /* NetworkingLogger.swift */,
+				A1226640274089B000019133 /* JSON.swift */,
 			);
 			path = NetworkController;
 			sourceTree = "<group>";
@@ -151,6 +186,22 @@
 			isa = PBXGroup;
 			children = (
 				A122661927404E5900019133 /* NetworkController */,
+				A122662E27405FF300019133 /* Report.swift */,
+				A12266302740607A00019133 /* ReportConditions.swift */,
+				A122663E274067D100019133 /* Remarks.swift */,
+				A122663A274066BD00019133 /* ConditionsVisibility.swift */,
+				A122664827415FAF00019133 /* WindTemp.swift */,
+				A122663C2740670100019133 /* Wind.swift */,
+				A12266382740658300019133 /* CloudLayers.swift */,
+				A1226632274060C700019133 /* Forecast.swift */,
+				A122664A274162ED00019133 /* MOSForcast.swift */,
+				A12266442740919D00019133 /* ForecastConditions.swift */,
+				A12266502741646700019133 /* MOSVisibility.swift */,
+				A122664C2741633600019133 /* MOSConditions.swift */,
+				A122664627415F8300019133 /* WindsAloftElement.swift */,
+				A122664227408F5B00019133 /* Period.swift */,
+				A1226634274060E800019133 /* ReportWindsAloft.swift */,
+				A12266362740613000019133 /* MOS.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,16 +367,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A122664327408F5B00019133 /* Period.swift in Sources */,
+				A122662F27405FF300019133 /* Report.swift in Sources */,
 				A1226623274050BD00019133 /* RequestPublisher.swift in Sources */,
+				A122664B274162ED00019133 /* MOSForcast.swift in Sources */,
 				A1C4DB1227403DC3006FD5AB /* ViewController.swift in Sources */,
+				A12266392740658300019133 /* CloudLayers.swift in Sources */,
 				A1226625274050DF00019133 /* NetworkingLogger.swift in Sources */,
 				A1C4DB0E27403DC3006FD5AB /* AppDelegate.swift in Sources */,
+				A12266312740607A00019133 /* ReportConditions.swift in Sources */,
 				A1C4DB1027403DC3006FD5AB /* SceneDelegate.swift in Sources */,
+				A122664927415FAF00019133 /* WindTemp.swift in Sources */,
+				A1226633274060C700019133 /* Forecast.swift in Sources */,
+				A1226635274060E800019133 /* ReportWindsAloft.swift in Sources */,
 				A122661D2740502700019133 /* NetworkDispatcher.swift in Sources */,
+				A1226641274089B000019133 /* JSON.swift in Sources */,
+				A122664727415F8300019133 /* WindsAloftElement.swift in Sources */,
+				A122663D2740670100019133 /* Wind.swift in Sources */,
+				A12266372740613000019133 /* MOS.swift in Sources */,
+				A122663F274067D100019133 /* Remarks.swift in Sources */,
+				A122664D2741633600019133 /* MOSConditions.swift in Sources */,
+				A12266452740919D00019133 /* ForecastConditions.swift in Sources */,
 				A12266212740507700019133 /* Request.swift in Sources */,
 				A122661B27404F1300019133 /* APIClient.swift in Sources */,
+				A12266512741646700019133 /* MOSVisibility.swift in Sources */,
 				A122661F2740505200019133 /* NetworkRequestError.swift in Sources */,
 				A1226628274051E700019133 /* URLRequest+extension.swift in Sources */,
+				A122663B274066BD00019133 /* ConditionsVisibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -52,7 +52,7 @@ final class Client: APIClient {
 #if DEBUG
 
 final class TestClient: APIClient {
-    
+
     private var responseByRequest: [String: Any] = [:]
     private var performedRequests: [String: Any] = [:]
 
